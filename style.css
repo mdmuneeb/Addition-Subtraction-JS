@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito&family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+body,html{
+    background-color: #EFF4F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    background-color: #ffffff;
+    padding: 2em;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px rgba(183, 183, 192, 0.9);
+}
+
+
+#show{
+    padding: 15px 0;
+    font-size: 1.7em;
+}
+
+#show-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    padding: 7px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    border: none;
+
+}
+
+@media only screen and (max-width:436px){
+    .container{
+        width: 90%;
+        margin: 1%;
+    }
+}
